@@ -6,12 +6,6 @@ import (
 	"os"
 )
 
-type Task struct {
-	name  string
-	date  string
-	state bool
-}
-
 func main() {
 	myFig := figure.NewColorFigure("CLI app", "", "blue", true)
 	myFig.Print()
